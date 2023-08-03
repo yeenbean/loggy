@@ -1,4 +1,4 @@
-# prettier-deno
+# loggy-deno
 
 A simple console logging library for deno.
 
