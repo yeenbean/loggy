@@ -1,6 +1,6 @@
 {
     "tasks": {
-        "dev": "deno run --watch main.ts"
+        "dev": "deno run --watch src/main.ts"
     },
     "fmt": {
         "useTabs": false,
@@ -8,6 +8,7 @@
         "indentWidth": 4,
         "semiColons": true,
         "singleQuote": false,
-        "proseWrap": "preserve"
+        "proseWrap": "preserve",
+        "include": ["src/"]
     }
 }
