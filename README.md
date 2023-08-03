@@ -1,4 +1,4 @@
-# loggy-deno
+# loggy
 
 A simple console logging library for deno.
 
