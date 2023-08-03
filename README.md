@@ -1,6 +1,6 @@
 <div align="center">
 
-![](assets/logo.png)
+<img src=assets/logo.svg style="height: 1in"/>
 
 A simple console logging library for deno. Like...really simple.
 
