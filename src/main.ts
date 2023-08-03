@@ -118,7 +118,7 @@ export function down(message: string): void {
     );
 }
 
-// Learn more at https://deno.land/manual/examples/module_metadata#concepts
+// Test console logging methods if called directly.
 if (import.meta.main) {
     log("log()");
     success("success()");
