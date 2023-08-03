@@ -1,6 +1,17 @@
-# loggy
+<div align="center">
+
+![](assets/logo.png)
 
 A simple console logging library for deno. Like...really simple.
+
+[![GitHub](https://img.shields.io/github/license/yeenbean/loggy?style=for-the-badge)](https://github.com/yeenbean/loggy/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/yeenbean/loggy?style=for-the-badge)](https://github.com/yeenbean/loggy/issues)
+[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/yeenbean/loggy?style=for-the-badge)](https://github.com/yeenbean/loggy/commits/main)
+[![Static Badge](https://img.shields.io/badge/Import-black?style=for-the-badge&logo=deno&logoColor=white)](https://deno.land/x/loggy)
+
+</div>
+
+---
 
 **This repository exists to allow me to learn how to make modules with deno. I
 do not expect anyone to use it but if you do...let me know!**
