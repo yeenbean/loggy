@@ -2,8 +2,8 @@
 
 <div style="height: 1in">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.svg">
+        <source media="(prefers-color-scheme: dark)" height="144px" srcset="assets/logo-dark.svg">
+        <source media="(prefers-color-scheme: light)" height="144px" srcset="assets/logo-light.svg">
         <img src="assets/logo-dark.svg">
     </picture>
 </div>
