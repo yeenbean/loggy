@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src=assets/logo.svg style="height: 1in"/>
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg" style="height: 1in">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.svg" style="height: 1in">
+    <img src="assets/logo-dark.svg" style="height: 1in">
+</picture>
 
 A simple console logging library for deno. Like...really simple.
 
