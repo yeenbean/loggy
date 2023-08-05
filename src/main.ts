@@ -118,6 +118,19 @@ export function down(message: string): void {
     );
 }
 
+/**
+ * Logs a message to the console. Prepends the current time.
+ * This log type does not have a status message, and is colored gray so that the
+ * log messages are subtle and unobtrusive.
+ * @param message Message to log to the console.
+ */
+export function debug(message: string): void {
+    console.log(
+        `%c    ${getTimeAsString()}: ${message}`,
+        "color: gray",
+    );
+}
+
 // Test console logging methods if called directly.
 if (import.meta.main) {
     log("log()");
@@ -128,4 +141,5 @@ if (import.meta.main) {
     critical("critical()");
     up("up()");
     down("down()");
+    debug("debug()");
 }
