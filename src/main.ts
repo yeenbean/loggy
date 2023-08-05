@@ -20,7 +20,7 @@ function getTimeAsString(): string {
 
 /**
  * Logs a message to the console. Prepends the current time.
- * The status message is three dots with no colored text.
+ * As this is a generic log type, there is no status message.
  * @param message Message to log to the console.
  */
 export function log(message: string): void {
@@ -29,7 +29,7 @@ export function log(message: string): void {
 
 /**
  * Logs a message to the console. Prepends the current time.
- * The status message uses three "+" symbols to indicate positive change.
+ * The status message uses one green "+" symbol to indicate positive change.
  * @param message Message to log to the console.
  */
 export function success(message: string): void {
@@ -42,7 +42,7 @@ export function success(message: string): void {
 
 /**
  * Logs a message to the console. Prepends the current time.
- * The status message uses three "-" symbols to indicate negative change.
+ * The status message uses one red "-" symbol to indicate negative change.
  * @param message Message to log to the console.
  */
 export function fail(message: string): void {
@@ -55,7 +55,7 @@ export function fail(message: string): void {
 
 /**
  * Logs a message to the console. Prepends the current time.
- * The status message uses "NFO" to indicate a warning message.
+ * The status message uses the letter "i" to indicate an info message.
  * @param message Message to log to the console.
  */
 export function info(message: string): void {
@@ -68,7 +68,7 @@ export function info(message: string): void {
 
 /**
  * Logs a message to the console. Prepends the current time.
- * The status message uses "WRN" to indicate a warning message.
+ * The status message uses "#" to indicate a warning message.
  * @param message Message to log to the console.
  */
 export function warn(message: string): void {
@@ -81,7 +81,7 @@ export function warn(message: string): void {
 
 /**
  * Logs a message to the console. Prepends the current time.
- * The status message uses three "!" to indicate a critical error.
+ * The status message uses "!" to indicate a critical error.
  * @param message Message to log to the console.
  */
 export function critical(message: string): void {
@@ -94,7 +94,7 @@ export function critical(message: string): void {
 
 /**
  * Logs a message to the console. Prepends the current time.
- * The status message uses three "↑" with a blue hue.
+ * The status message uses "↑" with a blue hue.
  * @param message Message to log to the console.
  */
 export function up(message: string): void {
@@ -107,7 +107,7 @@ export function up(message: string): void {
 
 /**
  * Logs a message to the console. Prepends the current time.
- * The status message uses three "↓" with a blue hue.
+ * The status message uses "↓" with a blue hue.
  * @param message Message to log to the console.
  */
 export function down(message: string): void {
