@@ -29,7 +29,7 @@ do not expect anyone to use it but if you do...let me know!**
 Simply import the module.
 
 ```ts
-import * as loggy from "https://deno.land/x/loggy@0.0.1/main.ts";
+import * as loggy from "https://deno.land/x/loggy@0.0.2/main.ts";
 ```
 
 ### loggy by example
@@ -37,7 +37,7 @@ import * as loggy from "https://deno.land/x/loggy@0.0.1/main.ts";
 The code below...
 
 ```ts
-import * as loggy from "https://deno.land/x/loggy@0.0.1/main.ts";
+import * as loggy from "https://deno.land/x/loggy@0.0.2/main.ts";
 
 loggy.log("This is a standard log message.");
 loggy.success("And this is a log message with a success status message.");
