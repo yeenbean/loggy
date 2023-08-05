@@ -24,7 +24,7 @@ function getTimeAsString(): string {
  * @param message Message to log to the console.
  */
 export function log(message: string): void {
-    console.log(`[ ... ] ${getTimeAsString()}: ${message}`);
+    console.log(`    ${getTimeAsString()}: ${message}`);
 }
 
 /**
@@ -34,7 +34,7 @@ export function log(message: string): void {
  */
 export function success(message: string): void {
     console.log(
-        `[ %c+++%c ] ${getTimeAsString()}: ${message}`,
+        `[%c+%c] ${getTimeAsString()}: ${message}`,
         "color: green",
         "all: unset",
     );
@@ -47,7 +47,7 @@ export function success(message: string): void {
  */
 export function fail(message: string): void {
     console.log(
-        `[ %c---%c ] ${getTimeAsString()}: ${message}`,
+        `[%c-%c] ${getTimeAsString()}: ${message}`,
         "color: red",
         "all: unset",
     );
@@ -60,7 +60,7 @@ export function fail(message: string): void {
  */
 export function info(message: string): void {
     console.log(
-        `[ %cNFO%c ] ${getTimeAsString()}: ${message}`,
+        `[%ci%c] ${getTimeAsString()}: ${message}`,
         "color: yellow",
         "all: unset",
     );
@@ -73,7 +73,7 @@ export function info(message: string): void {
  */
 export function warn(message: string): void {
     console.log(
-        `[ %cWRN%c ] ${getTimeAsString()}: ${message}`,
+        `[%c#%c] ${getTimeAsString()}: ${message}`,
         "color: orange",
         "all: unset",
     );
@@ -86,7 +86,7 @@ export function warn(message: string): void {
  */
 export function critical(message: string): void {
     console.log(
-        `[ %c!!!%c ] ${getTimeAsString()}: ${message}`,
+        `[%c!%c] ${getTimeAsString()}: ${message}`,
         "color: red",
         "all: unset",
     );
@@ -99,7 +99,7 @@ export function critical(message: string): void {
  */
 export function up(message: string): void {
     console.log(
-        `[ %c↑↑↑%c ] ${getTimeAsString()}: ${message}`,
+        `[%c↑%c] ${getTimeAsString()}: ${message}`,
         "color: blue",
         "all: unset",
     );
@@ -112,7 +112,7 @@ export function up(message: string): void {
  */
 export function down(message: string): void {
     console.log(
-        `[ %c↓↓↓%c ] ${getTimeAsString()}: ${message}`,
+        `[%c↓%c] ${getTimeAsString()}: ${message}`,
         "color: blue",
         "all: unset",
     );
