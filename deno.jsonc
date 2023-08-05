@@ -1,6 +1,9 @@
 {
     "tasks": {
-        "dev": "deno run --watch src/main.ts"
+        "dev": "deno run --watch src/main.ts",
+        "check": "deno check src/*",
+        "lint": "deno lint src/*",
+        "fmt": "deno fmt src/*"
     },
     "fmt": {
         "useTabs": false,
